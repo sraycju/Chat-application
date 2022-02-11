@@ -1,0 +1,17 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "Multi-client chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "srayc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1"
+  }
+}
